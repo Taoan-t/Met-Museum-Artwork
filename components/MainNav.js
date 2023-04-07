@@ -50,8 +50,8 @@ export default function MainNav() {
                   <Link href="/" legacyBehavior passHref>
                     <Nav.Link onClick={handleLinkClick} active={router.pathname === "/"}> Home</Nav.Link>
                   </Link>
-                  {token &&  <Link href="/search" legacyBehavior passHref>
-                    <Nav.Link onClick={handleLinkClick} active={router.pathname === "/search"}> Advanced Search</Nav.Link>
+                  {token &&  <Link href="/Search" legacyBehavior passHref>
+                    <Nav.Link onClick={handleLinkClick} active={router.pathname === "/Search"}> Advanced Search</Nav.Link>
                   </Link> }             
                   {/* &nbsp;                               */}
                 </Nav>
