@@ -1,0 +1,24 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "13.3.0",
+    "eslint": "8.37.0",
+    "eslint-config-next": "13.3.0",
+    "jotai": "^2.0.3",
+    "jwt-decode": "^3.1.2",
+    "next": "^13.3.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.43.9",
+    "swr": "^2.1.2"
+  }
+}
