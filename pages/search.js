@@ -5,7 +5,7 @@ import { useAtom } from "jotai";
 import { searchHistoryAtom } from "@/store";
 import { addToHistory } from "@/lib/userData";
 
-export default function search(){
+export default function Search(){
     const {register,handleSubmit,formState:{errors}}=useForm();
     const router=useRouter();
 
