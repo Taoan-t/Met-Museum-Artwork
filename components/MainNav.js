@@ -38,7 +38,7 @@ export default function MainNav() {
     <>
       <Navbar className="fixed-top navbar-dark bg-primary" expand="lg" expanded={isExpanded}>
         <Container>
-            <Navbar.Brand>Qian Tang</Navbar.Brand>         
+            <Navbar.Brand>The Metropolitan Museum</Navbar.Brand>         
             <Navbar.Toggle 
               aria-controls="basic-navbar-nav" 
               data-bs-toggle="collapse"
